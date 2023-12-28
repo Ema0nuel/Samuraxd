@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Poppins', 'Fira code', Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+  background-image: url('../img/background.png');
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-header {
+  position: absolute;
+  top: 30px;
+  line-height: 1.9;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  text-shadow: 5px 3px 5px #535353;
+}
+.text-large {
+  color: Black;
+  font-weight: 900;
+  font-size: 50px;
+}
+img {
+  position: absolute;
+}
+.box-model {
+  margin-top: 50px;
+  width: 50%;
+  height: 70vh;
+  max-width: 300px;
+  border-radius: 15px;
+  padding: 10px;
+  background: linear-gradient(
+    rgb(255, 103, 0),
+    rgb(101, 0, 233),
+    rgb(099, 254, 128)
+  );
+  box-shadow: 0px 0px 43px 17px;
+}
+
+.context {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  padding: 5px 10px;
+}
+.add {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 50px;
+}
+.open {
+  position: relative;
+  top: -8px;
+  color: white;
+  right: 10px;
+  cursor: pointer;
+}
+.open:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.text-medium {
+  color: white;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 20px;
+}
+.text-sm {
+  color: white;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-size: 15px;
+}
+.header {
+  text-align: center;
+  padding: 5px 2px;
+  position: relative;
+}
+.rule-game {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn {
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+.btn-primary {
+  background: rgb(19, 193, 236);
+}
+.game-btn {
+  position: relative;
+  top: 350px;
+  margin-left: 50px;
+}
